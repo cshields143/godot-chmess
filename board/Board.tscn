@@ -1,0 +1,205 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://board/BSquare.tscn" type="PackedScene" id=1]
+[ext_resource path="res://board/WSquare.tscn" type="PackedScene" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 256, 256 )
+
+[node name="Board" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 256, 256 )
+shape = SubResource( 1 )
+
+[node name="A1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 480 )
+
+[node name="A2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 416 )
+
+[node name="A3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 352 )
+
+[node name="A4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 288 )
+
+[node name="A5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 224 )
+
+[node name="A6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 160 )
+
+[node name="A7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="A8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 32 )
+
+[node name="B1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 480 )
+
+[node name="B2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 416 )
+
+[node name="B3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 352 )
+
+[node name="B4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 288 )
+
+[node name="B5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 224 )
+
+[node name="B6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="B7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 96 )
+
+[node name="B8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="C1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 480 )
+
+[node name="C2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 416 )
+
+[node name="C3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 352 )
+
+[node name="C4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 288 )
+
+[node name="C5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 224 )
+
+[node name="C6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 160 )
+
+[node name="C7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="C8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 32 )
+
+[node name="D1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 480 )
+
+[node name="D2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 416 )
+
+[node name="D3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 352 )
+
+[node name="D4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 288 )
+
+[node name="D5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 224 )
+
+[node name="D6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="D7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 96 )
+
+[node name="D8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="E1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 480 )
+
+[node name="E2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 416 )
+
+[node name="E3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 352 )
+
+[node name="E4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 288 )
+
+[node name="E5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 224 )
+
+[node name="E6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 160 )
+
+[node name="E7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="E8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 32 )
+
+[node name="F1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 480 )
+
+[node name="F2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 416 )
+
+[node name="F3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 352 )
+
+[node name="F4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 288 )
+
+[node name="F5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 224 )
+
+[node name="F6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="F7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 96 )
+
+[node name="F8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="G1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 480 )
+
+[node name="G2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 416, 416 )
+
+[node name="G3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 352 )
+
+[node name="G4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 416, 288 )
+
+[node name="G5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 224 )
+
+[node name="G6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 416, 160 )
+
+[node name="G7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 96 )
+
+[node name="G8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 416, 32 )
+
+[node name="H1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 480 )
+
+[node name="H2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 416 )
+
+[node name="H3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 352 )
+
+[node name="H4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 288 )
+
+[node name="H5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 224 )
+
+[node name="H6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 160 )
+
+[node name="H7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 96 )
+
+[node name="H8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 32 )

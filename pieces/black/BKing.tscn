@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://pieces/black/BKing.gd" type="Script" id=1]
+[ext_resource path="res://assets/black_king.png" type="Texture" id=2]
+[ext_resource path="res://pieces/base/King.tscn" type="PackedScene" id=3]
+
+[node name="BKing" instance=ExtResource( 3 )]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+texture = ExtResource( 2 )
